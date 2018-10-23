@@ -4,10 +4,11 @@ Provides an interface for [Unified Word Sense Disambiguation (WSD) evaluation fr
 # System Requirements
 * Windows 10 operating system
 * Python 3.0 and above
-* WordNet3.0+ corpora
+* WordNet 3.0+ corpora
 
 # Dataset
 The dataset included in this repository is retrieved from http://lcl.uniroma1.it/wsdeval/evaluation-data
+
 Available dataset:
 * Senseval2
 * Senseval3
@@ -18,7 +19,7 @@ Available dataset:
 
 # Usage
 ### Preparation
-1. Wrap the codes of system/algorithm to be evaluated inside the function `get_sensekey` with the following signatures:
+1. Wrap the codes/algorithm to be evaluated inside the function `get_sensekey` with the following signatures:
 ```
     def get_sensekey(sentence, word, lemma, pos):
         """
@@ -39,8 +40,10 @@ Available dataset:
 ##### Using Command line argument
 1. (Optional step) Activate virtual environment.
 2. In command prompt/powershell, change directory (`cd`) to `Evaluation/` then type and execute the following command:
-```evaluate [your .py filename] [dataset name]``` (e.g. ```evaluate example semeval2015```)
-3. Result will be display in the console. In addition, you can also view the evaluation result output under `evaluation_result/[dataset name]/[your .py filename]/` directory.
+
+&nbsp;&nbsp;&nbsp;&nbsp;```evaluate [your .py filename] [dataset name]``` (e.g. ```evaluate example semeval2015```)
+
+3. The evaluation result will be displayed in the console. In addition, you can also view the evaluation result output under `evaluation_result/[dataset name]/[your .py filename]/` directory.
 
 ##### Using Interactive command prompt
 1. Run `evaluate_interactive.bat` (by double clicking the `.bat` file or type `evaluate_interactive` in console), then follow the instruction on screen.
