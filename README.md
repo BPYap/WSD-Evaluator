@@ -28,7 +28,7 @@ Available dataset:
        :param str sentence: Context of `word`
        :param str word: Word to be disambiguate
        :param str lemma: lemma of `word`
-       :param str pos: part-of-speech tage of `word`
+       :param str pos: part-of-speech tag of `word`
        :return: sense key of disambiguated lemma
        :rtype: str
         """
