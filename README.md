@@ -40,8 +40,7 @@ Available dataset:
 ##### Using Command line argument
 1. (Optional step) Activate virtual environment.
 2. In command prompt/powershell, change directory (`cd`) to `Evaluation/` then type and execute the following command:
-
-&nbsp;&nbsp;&nbsp;&nbsp;```evaluate [your .py filename] [dataset name]``` (e.g. ```evaluate example semeval2015```)
+<br/>```evaluate [your .py filename] [dataset name]``` (e.g. ```evaluate example semeval2015```)
 
 3. The evaluation result will be displayed in the console. In addition, you can also view the evaluation result output under `evaluation_result/[dataset name]/[your .py filename]/` directory.
 
